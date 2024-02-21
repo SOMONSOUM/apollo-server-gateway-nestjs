@@ -14,7 +14,7 @@ import { ApolloServerPluginLandingPageLocalDefault } from '@apollo/server/plugin
       },
       gateway: {
         supergraphSdl: new IntrospectAndCompose({
-          subgraphs: [{ name: 'test', url: 'http://localhost:4444/graphql' }],
+          subgraphs: [{ name: 'test', url: 'http://localhost:3001/graphql' }],
         }),
       },
     }),
